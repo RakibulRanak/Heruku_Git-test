@@ -5,8 +5,8 @@ const port = process.env.PORT || 3000;
 
 // Define paths for Express config
 
-app.get("/ranak", (req, res) => {
-  res.render("404", {
+app.get("", (req, res) => {
+  res.send({
     title: "404",
     name: "Andrew Mead",
     errorMessage: "Page not found.",
