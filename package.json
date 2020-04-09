@@ -1,18 +1,23 @@
 {
   "name": "herokugit",
   "version": "1.0.0",
-  "description": "no",
-  "main": "src/app.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon src/app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "RakibulRanak",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RakibulRanak/Heruku_Git-test.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RakibulRanak/Heruku_Git-test/issues"
+  },
+  "homepage": "https://github.com/RakibulRanak/Heruku_Git-test#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "hbs": "^4.1.1",
-    "path": "^0.12.7",
-    "request": "^2.88.2"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
